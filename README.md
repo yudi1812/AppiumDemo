@@ -5,11 +5,12 @@ Install Java: Java JDK 17 - Get it here: https://www.oracle.com/java/technologie
 **Appium setup**
 1. Install homebred (package manager for macOS and is used to install software packages)
 2. Terminal: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-Install node and mom (Appium dependencies)
-3. Command to install node:  brew install node (this will install node as well)
-4. Install Appium server using npm: npm install -g appium@2.0.1
-5. Install UiAutomator2 Driver: appium driver install uiautomator2
-6. Install xcuitest driver: appium driver install xcuitest
+3. Install node and npm (Appium dependencies)
+
+   Command to install node:  brew install node (this will install node as well)
+5. Install Appium server using npm: npm install -g appium@2.0.1
+6. Install UiAutomator2 Driver: appium driver install uiautomator2
+7. Install xcuitest driver: appium driver install xcuitest
 
 **Android setup**
 Get Android studio here (https://developer.android.com/studio) and install it (including Android SDK via GUI installation)
